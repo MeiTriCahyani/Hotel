@@ -10,16 +10,23 @@ using System.Windows.Forms;
 
 namespace Hotel
 {
-    public partial class Form3 : Form
+    public partial class home : Form
     {
-        public Form3()
+        public home()
         {
             InitializeComponent();
         }
 
-        private void Form3_Load(object sender, EventArgs e)
+        private void Form4_Load(object sender, EventArgs e)
         {
 
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            DataKamar kmr = new DataKamar();
+            kmr.Show();
+            this.Hide();
         }
     }
 }

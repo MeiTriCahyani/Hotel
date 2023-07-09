@@ -121,8 +121,8 @@ namespace Hotel
 
         private void next_Click(object sender, EventArgs e)
         {
-            DataPemesanan psn = new DataPemesanan();
-            psn.Show();
+            DataPelanggan plg = new DataPelanggan();
+            plg.Show();
             this.Hide();
         }
 

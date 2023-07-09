@@ -203,6 +203,7 @@
             this.next.TabIndex = 31;
             this.next.Text = "NEXT";
             this.next.UseVisualStyleBackColor = true;
+            this.next.Click += new System.EventHandler(this.next_Click);
             // 
             // exit
             // 
@@ -212,6 +213,7 @@
             this.exit.TabIndex = 30;
             this.exit.Text = "EXIT";
             this.exit.UseVisualStyleBackColor = true;
+            this.exit.Click += new System.EventHandler(this.exit_Click);
             // 
             // add
             // 
@@ -276,6 +278,7 @@
             this.hOMEToolStripMenuItem.Name = "hOMEToolStripMenuItem";
             this.hOMEToolStripMenuItem.Size = new System.Drawing.Size(54, 20);
             this.hOMEToolStripMenuItem.Text = "HOME";
+            this.hOMEToolStripMenuItem.Click += new System.EventHandler(this.hOMEToolStripMenuItem_Click);
             // 
             // menuToolStripMenuItem
             // 
@@ -292,35 +295,35 @@
             // dataPegawaiToolStripMenuItem
             // 
             this.dataPegawaiToolStripMenuItem.Name = "dataPegawaiToolStripMenuItem";
-            this.dataPegawaiToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.dataPegawaiToolStripMenuItem.Size = new System.Drawing.Size(162, 22);
             this.dataPegawaiToolStripMenuItem.Text = "Data Pegawai";
             this.dataPegawaiToolStripMenuItem.Click += new System.EventHandler(this.dataPegawaiToolStripMenuItem_Click);
             // 
             // dataPelangganToolStripMenuItem
             // 
             this.dataPelangganToolStripMenuItem.Name = "dataPelangganToolStripMenuItem";
-            this.dataPelangganToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.dataPelangganToolStripMenuItem.Size = new System.Drawing.Size(162, 22);
             this.dataPelangganToolStripMenuItem.Text = "Data Pelanggan";
             this.dataPelangganToolStripMenuItem.Click += new System.EventHandler(this.dataPelangganToolStripMenuItem_Click);
             // 
             // dataKamarToolStripMenuItem
             // 
             this.dataKamarToolStripMenuItem.Name = "dataKamarToolStripMenuItem";
-            this.dataKamarToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.dataKamarToolStripMenuItem.Size = new System.Drawing.Size(162, 22);
             this.dataKamarToolStripMenuItem.Text = "Data Kamar";
             this.dataKamarToolStripMenuItem.Click += new System.EventHandler(this.dataKamarToolStripMenuItem_Click);
             // 
             // dataPemesananToolStripMenuItem
             // 
             this.dataPemesananToolStripMenuItem.Name = "dataPemesananToolStripMenuItem";
-            this.dataPemesananToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.dataPemesananToolStripMenuItem.Size = new System.Drawing.Size(162, 22);
             this.dataPemesananToolStripMenuItem.Text = "Data Pemesanan";
             this.dataPemesananToolStripMenuItem.Click += new System.EventHandler(this.dataPemesananToolStripMenuItem_Click);
             // 
             // dataTransaksiToolStripMenuItem
             // 
             this.dataTransaksiToolStripMenuItem.Name = "dataTransaksiToolStripMenuItem";
-            this.dataTransaksiToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.dataTransaksiToolStripMenuItem.Size = new System.Drawing.Size(162, 22);
             this.dataTransaksiToolStripMenuItem.Text = "Data Transaksi";
             this.dataTransaksiToolStripMenuItem.Click += new System.EventHandler(this.dataTransaksiToolStripMenuItem_Click);
             // 
@@ -341,6 +344,7 @@
             this.Controls.Add(this.groupBox4);
             this.Name = "DataPemesanan";
             this.Text = "Data Pemesanan";
+            this.Load += new System.EventHandler(this.DataPemesanan_Load);
             this.groupBox4.ResumeLayout(false);
             this.groupBox4.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();

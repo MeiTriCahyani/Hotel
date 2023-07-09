@@ -76,6 +76,12 @@
     <Compile Include="DataKamar.Designer.cs">
       <DependentUpon>DataKamar.cs</DependentUpon>
     </Compile>
+    <Compile Include="DataMember.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DataMember.Designer.cs">
+      <DependentUpon>DataMember.cs</DependentUpon>
+    </Compile>
     <Compile Include="home.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -98,6 +104,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="DataKamar.resx">
       <DependentUpon>DataKamar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DataMember.resx">
+      <DependentUpon>DataMember.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="home.resx">
       <DependentUpon>home.cs</DependentUpon>

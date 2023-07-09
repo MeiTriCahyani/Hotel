@@ -56,5 +56,26 @@ namespace Hotel
             trs.Show();
             this.Hide();
         }
+
+        private void hOMEToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            home hom = new home();
+            hom.Show();
+            this.Hide();
+        }
+
+        private void exit_Click(object sender, EventArgs e)
+        {
+            home hom = new home();
+            hom.Show();
+            this.Hide();
+        }
+
+        private void next_Click(object sender, EventArgs e)
+        {
+            DataPemesanan pms = new DataPemesanan();
+            pms.Show();
+            this.Hide();
+        }
     }
 }

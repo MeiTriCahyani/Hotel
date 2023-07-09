@@ -82,6 +82,12 @@
     <Compile Include="DataMember.Designer.cs">
       <DependentUpon>DataMember.cs</DependentUpon>
     </Compile>
+    <Compile Include="Departemen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Departemen.Designer.cs">
+      <DependentUpon>Departemen.cs</DependentUpon>
+    </Compile>
     <Compile Include="home.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -107,6 +113,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="DataMember.resx">
       <DependentUpon>DataMember.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Departemen.resx">
+      <DependentUpon>Departemen.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="home.resx">
       <DependentUpon>home.cs</DependentUpon>

@@ -220,6 +220,7 @@
             this.next.TabIndex = 26;
             this.next.Text = "NEXT";
             this.next.UseVisualStyleBackColor = true;
+            this.next.Click += new System.EventHandler(this.next_Click);
             // 
             // exit
             // 

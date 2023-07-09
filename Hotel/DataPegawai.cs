@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Data.SqlClient;
 using System.Drawing;
 using System.Linq;
 using System.Text;
@@ -12,6 +13,9 @@ namespace Hotel
 {
     public partial class DataPegawai : Form
     {
+        string connectionString = "data source =LAPTOP-LE37C152\\MIMITI03;" +
+          "database=Hotel;user ID=sa; password=masadepan180423";
+        private SqlConnection koneksi;
         public DataPegawai()
         {
             InitializeComponent();
@@ -78,6 +82,13 @@ namespace Hotel
         {
             home hom = new home();
             hom.Show();
+            this.Hide();
+        }
+
+        private void next_Click(object sender, EventArgs e)
+        {
+            Departemen dpt = new Departemen();
+            dpt.Show();
             this.Hide();
         }
     }

@@ -63,19 +63,21 @@
             // 
             // menuStrip1
             // 
+            this.menuStrip1.GripMargin = new System.Windows.Forms.Padding(2, 2, 0, 2);
+            this.menuStrip1.ImageScalingSize = new System.Drawing.Size(32, 32);
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.hOMEToolStripMenuItem,
             this.menuToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(800, 24);
+            this.menuStrip1.Size = new System.Drawing.Size(1600, 46);
             this.menuStrip1.TabIndex = 33;
             this.menuStrip1.Text = "menuStrip1";
             // 
             // hOMEToolStripMenuItem
             // 
             this.hOMEToolStripMenuItem.Name = "hOMEToolStripMenuItem";
-            this.hOMEToolStripMenuItem.Size = new System.Drawing.Size(54, 20);
+            this.hOMEToolStripMenuItem.Size = new System.Drawing.Size(103, 38);
             this.hOMEToolStripMenuItem.Text = "HOME";
             this.hOMEToolStripMenuItem.Click += new System.EventHandler(this.hOMEToolStripMenuItem_Click);
             // 
@@ -88,41 +90,41 @@
             this.dataPemesananToolStripMenuItem,
             this.dataTransaksiToolStripMenuItem});
             this.menuToolStripMenuItem.Name = "menuToolStripMenuItem";
-            this.menuToolStripMenuItem.Size = new System.Drawing.Size(53, 20);
+            this.menuToolStripMenuItem.Size = new System.Drawing.Size(102, 38);
             this.menuToolStripMenuItem.Text = "MENU";
             // 
             // dataPegawaiToolStripMenuItem
             // 
             this.dataPegawaiToolStripMenuItem.Name = "dataPegawaiToolStripMenuItem";
-            this.dataPegawaiToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.dataPegawaiToolStripMenuItem.Size = new System.Drawing.Size(324, 44);
             this.dataPegawaiToolStripMenuItem.Text = "Data Pegawai";
             this.dataPegawaiToolStripMenuItem.Click += new System.EventHandler(this.dataPegawaiToolStripMenuItem_Click);
             // 
             // dataPelangganToolStripMenuItem
             // 
             this.dataPelangganToolStripMenuItem.Name = "dataPelangganToolStripMenuItem";
-            this.dataPelangganToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.dataPelangganToolStripMenuItem.Size = new System.Drawing.Size(324, 44);
             this.dataPelangganToolStripMenuItem.Text = "Data Pelanggan";
             this.dataPelangganToolStripMenuItem.Click += new System.EventHandler(this.dataPelangganToolStripMenuItem_Click);
             // 
             // dataKamarToolStripMenuItem
             // 
             this.dataKamarToolStripMenuItem.Name = "dataKamarToolStripMenuItem";
-            this.dataKamarToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.dataKamarToolStripMenuItem.Size = new System.Drawing.Size(324, 44);
             this.dataKamarToolStripMenuItem.Text = "Data Kamar";
             this.dataKamarToolStripMenuItem.Click += new System.EventHandler(this.dataKamarToolStripMenuItem_Click);
             // 
             // dataPemesananToolStripMenuItem
             // 
             this.dataPemesananToolStripMenuItem.Name = "dataPemesananToolStripMenuItem";
-            this.dataPemesananToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.dataPemesananToolStripMenuItem.Size = new System.Drawing.Size(324, 44);
             this.dataPemesananToolStripMenuItem.Text = "Data Pemesanan";
             this.dataPemesananToolStripMenuItem.Click += new System.EventHandler(this.dataPemesananToolStripMenuItem_Click);
             // 
             // dataTransaksiToolStripMenuItem
             // 
             this.dataTransaksiToolStripMenuItem.Name = "dataTransaksiToolStripMenuItem";
-            this.dataTransaksiToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.dataTransaksiToolStripMenuItem.Size = new System.Drawing.Size(324, 44);
             this.dataTransaksiToolStripMenuItem.Text = "Data Transaksi";
             this.dataTransaksiToolStripMenuItem.Click += new System.EventHandler(this.dataTransaksiToolStripMenuItem_Click);
             // 
@@ -130,27 +132,30 @@
             // 
             this.label21.AutoSize = true;
             this.label21.Font = new System.Drawing.Font("Palatino Linotype", 36F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label21.Location = new System.Drawing.Point(204, 36);
+            this.label21.Location = new System.Drawing.Point(408, 69);
+            this.label21.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.label21.Name = "label21";
-            this.label21.Size = new System.Drawing.Size(251, 63);
+            this.label21.Size = new System.Drawing.Size(506, 128);
             this.label21.TabIndex = 32;
             this.label21.Text = "HOTEL TI";
             // 
             // pictureBox1
             // 
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(486, 45);
+            this.pictureBox1.Location = new System.Drawing.Point(972, 87);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(75, 54);
+            this.pictureBox1.Size = new System.Drawing.Size(150, 104);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 31;
             this.pictureBox1.TabStop = false;
             // 
             // next
             // 
-            this.next.Location = new System.Drawing.Point(550, 367);
+            this.next.Location = new System.Drawing.Point(1100, 706);
+            this.next.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.next.Name = "next";
-            this.next.Size = new System.Drawing.Size(75, 23);
+            this.next.Size = new System.Drawing.Size(150, 44);
             this.next.TabIndex = 40;
             this.next.Text = "NEXT";
             this.next.UseVisualStyleBackColor = true;
@@ -158,9 +163,10 @@
             // 
             // exit
             // 
-            this.exit.Location = new System.Drawing.Point(433, 367);
+            this.exit.Location = new System.Drawing.Point(866, 706);
+            this.exit.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.exit.Name = "exit";
-            this.exit.Size = new System.Drawing.Size(75, 23);
+            this.exit.Size = new System.Drawing.Size(150, 44);
             this.exit.TabIndex = 39;
             this.exit.Text = "EXIT";
             this.exit.UseVisualStyleBackColor = true;
@@ -168,9 +174,10 @@
             // 
             // add
             // 
-            this.add.Location = new System.Drawing.Point(398, 322);
+            this.add.Location = new System.Drawing.Point(796, 619);
+            this.add.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.add.Name = "add";
-            this.add.Size = new System.Drawing.Size(75, 23);
+            this.add.Size = new System.Drawing.Size(150, 44);
             this.add.TabIndex = 38;
             this.add.Text = "ADD";
             this.add.UseVisualStyleBackColor = true;
@@ -178,9 +185,10 @@
             // 
             // clear
             // 
-            this.clear.Location = new System.Drawing.Point(496, 322);
+            this.clear.Location = new System.Drawing.Point(992, 619);
+            this.clear.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.clear.Name = "clear";
-            this.clear.Size = new System.Drawing.Size(75, 23);
+            this.clear.Size = new System.Drawing.Size(150, 44);
             this.clear.TabIndex = 37;
             this.clear.Text = "CLEAR";
             this.clear.UseVisualStyleBackColor = true;
@@ -188,9 +196,10 @@
             // 
             // save
             // 
-            this.save.Location = new System.Drawing.Point(592, 322);
+            this.save.Location = new System.Drawing.Point(1184, 619);
+            this.save.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.save.Name = "save";
-            this.save.Size = new System.Drawing.Size(75, 23);
+            this.save.Size = new System.Drawing.Size(150, 44);
             this.save.TabIndex = 36;
             this.save.Text = "SAVE";
             this.save.UseVisualStyleBackColor = true;
@@ -199,9 +208,11 @@
             // kamarview
             // 
             this.kamarview.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.kamarview.Location = new System.Drawing.Point(398, 130);
+            this.kamarview.Location = new System.Drawing.Point(796, 250);
+            this.kamarview.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.kamarview.Name = "kamarview";
-            this.kamarview.Size = new System.Drawing.Size(293, 165);
+            this.kamarview.RowHeadersWidth = 82;
+            this.kamarview.Size = new System.Drawing.Size(586, 317);
             this.kamarview.TabIndex = 35;
             this.kamarview.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView);
             // 
@@ -217,9 +228,11 @@
             this.groupBox4.Controls.Add(this.label16);
             this.groupBox4.Controls.Add(this.label17);
             this.groupBox4.Font = new System.Drawing.Font("Mongolian Baiti", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox4.Location = new System.Drawing.Point(49, 120);
+            this.groupBox4.Location = new System.Drawing.Point(98, 231);
+            this.groupBox4.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.groupBox4.Name = "groupBox4";
-            this.groupBox4.Size = new System.Drawing.Size(343, 277);
+            this.groupBox4.Padding = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.groupBox4.Size = new System.Drawing.Size(686, 533);
             this.groupBox4.TabIndex = 34;
             this.groupBox4.TabStop = false;
             this.groupBox4.Text = "Data Kamar";
@@ -238,17 +251,19 @@
             "8",
             "9",
             "10"});
-            this.ltkmr.Location = new System.Drawing.Point(147, 163);
+            this.ltkmr.Location = new System.Drawing.Point(294, 313);
+            this.ltkmr.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.ltkmr.Name = "ltkmr";
-            this.ltkmr.Size = new System.Drawing.Size(146, 24);
+            this.ltkmr.Size = new System.Drawing.Size(288, 42);
             this.ltkmr.TabIndex = 11;
             // 
             // label18
             // 
             this.label18.AutoSize = true;
-            this.label18.Location = new System.Drawing.Point(7, 209);
+            this.label18.Location = new System.Drawing.Point(14, 402);
+            this.label18.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size(93, 16);
+            this.label18.Size = new System.Drawing.Size(188, 34);
             this.label18.TabIndex = 10;
             this.label18.Text = "Harga Kamar";
             // 
@@ -256,68 +271,79 @@
             // 
             this.tpkmr.FormattingEnabled = true;
             this.tpkmr.Items.AddRange(new object[] {
-            "P",
-            "L"});
-            this.tpkmr.Location = new System.Drawing.Point(147, 79);
+            "Standart Room",
+            "Superior Room",
+            "Deluxe Room",
+            "Single Room",
+            "Connecting Room",
+            "Presindential Suite"});
+            this.tpkmr.Location = new System.Drawing.Point(294, 152);
+            this.tpkmr.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.tpkmr.Name = "tpkmr";
-            this.tpkmr.Size = new System.Drawing.Size(146, 24);
+            this.tpkmr.Size = new System.Drawing.Size(288, 42);
             this.tpkmr.TabIndex = 8;
             // 
             // nmkmr
             // 
-            this.nmkmr.Location = new System.Drawing.Point(147, 115);
+            this.nmkmr.Location = new System.Drawing.Point(294, 221);
+            this.nmkmr.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.nmkmr.Name = "nmkmr";
-            this.nmkmr.Size = new System.Drawing.Size(146, 26);
+            this.nmkmr.Size = new System.Drawing.Size(288, 44);
             this.nmkmr.TabIndex = 6;
             // 
             // idkmr
             // 
-            this.idkmr.Location = new System.Drawing.Point(147, 29);
+            this.idkmr.Location = new System.Drawing.Point(294, 56);
+            this.idkmr.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.idkmr.Name = "idkmr";
-            this.idkmr.Size = new System.Drawing.Size(146, 26);
+            this.idkmr.Size = new System.Drawing.Size(288, 44);
             this.idkmr.TabIndex = 4;
             // 
             // label13
             // 
             this.label13.AutoSize = true;
-            this.label13.Location = new System.Drawing.Point(7, 79);
+            this.label13.Location = new System.Drawing.Point(14, 152);
+            this.label13.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(83, 16);
+            this.label13.Size = new System.Drawing.Size(169, 34);
             this.label13.TabIndex = 3;
             this.label13.Text = "Tipe Kamar";
             // 
             // label14
             // 
             this.label14.AutoSize = true;
-            this.label14.Location = new System.Drawing.Point(7, 118);
+            this.label14.Location = new System.Drawing.Point(14, 227);
+            this.label14.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(99, 16);
+            this.label14.Size = new System.Drawing.Size(201, 34);
             this.label14.TabIndex = 2;
             this.label14.Text = "Nomor Kamar";
             // 
             // label16
             // 
             this.label16.AutoSize = true;
-            this.label16.Location = new System.Drawing.Point(7, 32);
+            this.label16.Location = new System.Drawing.Point(14, 62);
+            this.label16.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(71, 16);
+            this.label16.Size = new System.Drawing.Size(144, 34);
             this.label16.TabIndex = 0;
             this.label16.Text = "ID Kamar";
             // 
             // label17
             // 
             this.label17.AutoSize = true;
-            this.label17.Location = new System.Drawing.Point(7, 166);
+            this.label17.Location = new System.Drawing.Point(14, 319);
+            this.label17.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.label17.Name = "label17";
-            this.label17.Size = new System.Drawing.Size(94, 16);
+            this.label17.Size = new System.Drawing.Size(192, 34);
             this.label17.TabIndex = 9;
             this.label17.Text = "Lantai Kamar";
             // 
             // DataKamar
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(1600, 865);
             this.Controls.Add(this.next);
             this.Controls.Add(this.exit);
             this.Controls.Add(this.add);
@@ -328,6 +354,7 @@
             this.Controls.Add(this.menuStrip1);
             this.Controls.Add(this.label21);
             this.Controls.Add(this.pictureBox1);
+            this.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.Name = "DataKamar";
             this.Text = "DataKamar";
             this.Load += new System.EventHandler(this.Form1_Load);

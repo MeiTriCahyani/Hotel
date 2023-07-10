@@ -79,34 +79,39 @@
             this.groupBox4.Controls.Add(this.label16);
             this.groupBox4.Controls.Add(this.label17);
             this.groupBox4.Font = new System.Drawing.Font("Mongolian Baiti", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox4.Location = new System.Drawing.Point(35, 72);
+            this.groupBox4.Location = new System.Drawing.Point(70, 138);
+            this.groupBox4.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.groupBox4.Name = "groupBox4";
-            this.groupBox4.Size = new System.Drawing.Size(343, 277);
+            this.groupBox4.Padding = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.groupBox4.Size = new System.Drawing.Size(686, 533);
             this.groupBox4.TabIndex = 10;
             this.groupBox4.TabStop = false;
             this.groupBox4.Text = "Data Pemesanan";
             // 
             // chkout
             // 
-            this.chkout.Location = new System.Drawing.Point(147, 236);
+            this.chkout.Location = new System.Drawing.Point(294, 454);
+            this.chkout.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.chkout.Name = "chkout";
-            this.chkout.Size = new System.Drawing.Size(146, 26);
+            this.chkout.Size = new System.Drawing.Size(288, 44);
             this.chkout.TabIndex = 12;
             this.chkout.ValueChanged += new System.EventHandler(this.dateTimePicker2_ValueChanged);
             // 
             // chkin
             // 
-            this.chkin.Location = new System.Drawing.Point(147, 195);
+            this.chkin.Location = new System.Drawing.Point(294, 375);
+            this.chkin.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.chkin.Name = "chkin";
-            this.chkin.Size = new System.Drawing.Size(146, 26);
+            this.chkin.Size = new System.Drawing.Size(288, 44);
             this.chkin.TabIndex = 11;
             // 
             // label18
             // 
             this.label18.AutoSize = true;
-            this.label18.Location = new System.Drawing.Point(6, 243);
+            this.label18.Location = new System.Drawing.Point(12, 467);
+            this.label18.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size(132, 16);
+            this.label18.Size = new System.Drawing.Size(265, 34);
             this.label18.TabIndex = 10;
             this.label18.Text = "Tanggal Check Out";
             // 
@@ -120,91 +125,102 @@
             "Single Room",
             "Connecting Room",
             "Presindential Suite"});
-            this.tpkmr.Location = new System.Drawing.Point(147, 156);
+            this.tpkmr.Location = new System.Drawing.Point(294, 300);
+            this.tpkmr.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.tpkmr.Name = "tpkmr";
-            this.tpkmr.Size = new System.Drawing.Size(146, 24);
+            this.tpkmr.Size = new System.Drawing.Size(288, 42);
             this.tpkmr.TabIndex = 8;
             // 
             // idkmr
             // 
-            this.idkmr.Location = new System.Drawing.Point(147, 115);
+            this.idkmr.Location = new System.Drawing.Point(294, 221);
+            this.idkmr.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.idkmr.Name = "idkmr";
-            this.idkmr.Size = new System.Drawing.Size(146, 26);
+            this.idkmr.Size = new System.Drawing.Size(288, 44);
             this.idkmr.TabIndex = 6;
             // 
             // idpgln
             // 
-            this.idpgln.Location = new System.Drawing.Point(147, 76);
+            this.idpgln.Location = new System.Drawing.Point(294, 146);
+            this.idpgln.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.idpgln.Name = "idpgln";
-            this.idpgln.Size = new System.Drawing.Size(146, 26);
+            this.idpgln.Size = new System.Drawing.Size(288, 44);
             this.idpgln.TabIndex = 5;
             // 
             // idpms
             // 
-            this.idpms.Location = new System.Drawing.Point(147, 29);
+            this.idpms.Location = new System.Drawing.Point(294, 56);
+            this.idpms.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.idpms.Name = "idpms";
-            this.idpms.Size = new System.Drawing.Size(146, 26);
+            this.idpms.Size = new System.Drawing.Size(288, 44);
             this.idpms.TabIndex = 4;
             // 
             // label13
             // 
             this.label13.AutoSize = true;
-            this.label13.Location = new System.Drawing.Point(7, 159);
+            this.label13.Location = new System.Drawing.Point(14, 306);
+            this.label13.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(83, 16);
+            this.label13.Size = new System.Drawing.Size(169, 34);
             this.label13.TabIndex = 3;
             this.label13.Text = "Tipe Kamar";
             // 
             // label14
             // 
             this.label14.AutoSize = true;
-            this.label14.Location = new System.Drawing.Point(7, 118);
+            this.label14.Location = new System.Drawing.Point(14, 227);
+            this.label14.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(71, 16);
+            this.label14.Size = new System.Drawing.Size(144, 34);
             this.label14.TabIndex = 2;
             this.label14.Text = "ID Kamar";
             // 
             // label15
             // 
             this.label15.AutoSize = true;
-            this.label15.Location = new System.Drawing.Point(9, 76);
+            this.label15.Location = new System.Drawing.Point(18, 146);
+            this.label15.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(94, 16);
+            this.label15.Size = new System.Drawing.Size(190, 34);
             this.label15.TabIndex = 1;
             this.label15.Text = "ID Pelanggan";
             // 
             // label16
             // 
             this.label16.AutoSize = true;
-            this.label16.Location = new System.Drawing.Point(7, 32);
+            this.label16.Location = new System.Drawing.Point(14, 62);
+            this.label16.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(99, 16);
+            this.label16.Size = new System.Drawing.Size(200, 34);
             this.label16.TabIndex = 0;
             this.label16.Text = "ID Pemesanan";
             // 
             // label17
             // 
             this.label17.AutoSize = true;
-            this.label17.Location = new System.Drawing.Point(6, 202);
+            this.label17.Location = new System.Drawing.Point(12, 388);
+            this.label17.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.label17.Name = "label17";
-            this.label17.Size = new System.Drawing.Size(114, 16);
+            this.label17.Size = new System.Drawing.Size(230, 34);
             this.label17.TabIndex = 9;
             this.label17.Text = "Tanggal Chek In";
             // 
             // dataGridView1
             // 
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(384, 82);
+            this.dataGridView1.Location = new System.Drawing.Point(768, 158);
+            this.dataGridView1.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowHeadersWidth = 82;
-            this.dataGridView1.Size = new System.Drawing.Size(293, 165);
+            this.dataGridView1.Size = new System.Drawing.Size(586, 317);
             this.dataGridView1.TabIndex = 21;
             // 
             // next
             // 
-            this.next.Location = new System.Drawing.Point(536, 319);
+            this.next.Location = new System.Drawing.Point(1072, 613);
+            this.next.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.next.Name = "next";
-            this.next.Size = new System.Drawing.Size(75, 23);
+            this.next.Size = new System.Drawing.Size(150, 44);
             this.next.TabIndex = 31;
             this.next.Text = "NEXT";
             this.next.UseVisualStyleBackColor = true;
@@ -212,9 +228,10 @@
             // 
             // exit
             // 
-            this.exit.Location = new System.Drawing.Point(419, 319);
+            this.exit.Location = new System.Drawing.Point(838, 613);
+            this.exit.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.exit.Name = "exit";
-            this.exit.Size = new System.Drawing.Size(75, 23);
+            this.exit.Size = new System.Drawing.Size(150, 44);
             this.exit.TabIndex = 30;
             this.exit.Text = "EXIT";
             this.exit.UseVisualStyleBackColor = true;
@@ -222,27 +239,30 @@
             // 
             // add
             // 
-            this.add.Location = new System.Drawing.Point(384, 274);
+            this.add.Location = new System.Drawing.Point(768, 527);
+            this.add.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.add.Name = "add";
-            this.add.Size = new System.Drawing.Size(75, 23);
+            this.add.Size = new System.Drawing.Size(150, 44);
             this.add.TabIndex = 29;
             this.add.Text = "ADD";
             this.add.UseVisualStyleBackColor = true;
             // 
             // clear
             // 
-            this.clear.Location = new System.Drawing.Point(482, 274);
+            this.clear.Location = new System.Drawing.Point(964, 527);
+            this.clear.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.clear.Name = "clear";
-            this.clear.Size = new System.Drawing.Size(75, 23);
+            this.clear.Size = new System.Drawing.Size(150, 44);
             this.clear.TabIndex = 28;
             this.clear.Text = "CLEAR";
             this.clear.UseVisualStyleBackColor = true;
             // 
             // save
             // 
-            this.save.Location = new System.Drawing.Point(578, 274);
+            this.save.Location = new System.Drawing.Point(1156, 527);
+            this.save.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.save.Name = "save";
-            this.save.Size = new System.Drawing.Size(75, 23);
+            this.save.Size = new System.Drawing.Size(150, 44);
             this.save.TabIndex = 27;
             this.save.Text = "SAVE";
             this.save.UseVisualStyleBackColor = true;
@@ -251,39 +271,42 @@
             // 
             this.label21.AutoSize = true;
             this.label21.Font = new System.Drawing.Font("Palatino Linotype", 36F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label21.Location = new System.Drawing.Point(199, 9);
+            this.label21.Location = new System.Drawing.Point(398, 17);
+            this.label21.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.label21.Name = "label21";
-            this.label21.Size = new System.Drawing.Size(251, 63);
+            this.label21.Size = new System.Drawing.Size(506, 128);
             this.label21.TabIndex = 33;
             this.label21.Text = "HOTEL TI";
             // 
             // pictureBox1
             // 
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(481, 18);
+            this.pictureBox1.Location = new System.Drawing.Point(962, 35);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(75, 54);
+            this.pictureBox1.Size = new System.Drawing.Size(150, 104);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 32;
             this.pictureBox1.TabStop = false;
             // 
             // menuStrip1
             // 
+            this.menuStrip1.GripMargin = new System.Windows.Forms.Padding(2, 2, 0, 2);
             this.menuStrip1.ImageScalingSize = new System.Drawing.Size(32, 32);
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.hOMEToolStripMenuItem,
             this.menuToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Padding = new System.Windows.Forms.Padding(3, 1, 0, 1);
-            this.menuStrip1.Size = new System.Drawing.Size(685, 24);
+            this.menuStrip1.Padding = new System.Windows.Forms.Padding(6, 2, 0, 2);
+            this.menuStrip1.Size = new System.Drawing.Size(1370, 40);
             this.menuStrip1.TabIndex = 34;
             this.menuStrip1.Text = "menuStrip1";
             // 
             // hOMEToolStripMenuItem
             // 
             this.hOMEToolStripMenuItem.Name = "hOMEToolStripMenuItem";
-            this.hOMEToolStripMenuItem.Size = new System.Drawing.Size(54, 22);
+            this.hOMEToolStripMenuItem.Size = new System.Drawing.Size(103, 36);
             this.hOMEToolStripMenuItem.Text = "HOME";
             this.hOMEToolStripMenuItem.Click += new System.EventHandler(this.hOMEToolStripMenuItem_Click);
             // 
@@ -296,50 +319,50 @@
             this.dataPemesananToolStripMenuItem,
             this.dataTransaksiToolStripMenuItem});
             this.menuToolStripMenuItem.Name = "menuToolStripMenuItem";
-            this.menuToolStripMenuItem.Size = new System.Drawing.Size(53, 22);
+            this.menuToolStripMenuItem.Size = new System.Drawing.Size(102, 36);
             this.menuToolStripMenuItem.Text = "MENU";
             this.menuToolStripMenuItem.Click += new System.EventHandler(this.menuToolStripMenuItem_Click);
             // 
             // dataPegawaiToolStripMenuItem
             // 
             this.dataPegawaiToolStripMenuItem.Name = "dataPegawaiToolStripMenuItem";
-            this.dataPegawaiToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.dataPegawaiToolStripMenuItem.Size = new System.Drawing.Size(324, 44);
             this.dataPegawaiToolStripMenuItem.Text = "Data Pegawai";
             this.dataPegawaiToolStripMenuItem.Click += new System.EventHandler(this.dataPegawaiToolStripMenuItem_Click);
             // 
             // dataPelangganToolStripMenuItem
             // 
             this.dataPelangganToolStripMenuItem.Name = "dataPelangganToolStripMenuItem";
-            this.dataPelangganToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.dataPelangganToolStripMenuItem.Size = new System.Drawing.Size(324, 44);
             this.dataPelangganToolStripMenuItem.Text = "Data Pelanggan";
             this.dataPelangganToolStripMenuItem.Click += new System.EventHandler(this.dataPelangganToolStripMenuItem_Click);
             // 
             // dataKamarToolStripMenuItem
             // 
             this.dataKamarToolStripMenuItem.Name = "dataKamarToolStripMenuItem";
-            this.dataKamarToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.dataKamarToolStripMenuItem.Size = new System.Drawing.Size(324, 44);
             this.dataKamarToolStripMenuItem.Text = "Data Kamar";
             this.dataKamarToolStripMenuItem.Click += new System.EventHandler(this.dataKamarToolStripMenuItem_Click);
             // 
             // dataPemesananToolStripMenuItem
             // 
             this.dataPemesananToolStripMenuItem.Name = "dataPemesananToolStripMenuItem";
-            this.dataPemesananToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.dataPemesananToolStripMenuItem.Size = new System.Drawing.Size(324, 44);
             this.dataPemesananToolStripMenuItem.Text = "Data Pemesanan";
             this.dataPemesananToolStripMenuItem.Click += new System.EventHandler(this.dataPemesananToolStripMenuItem_Click);
             // 
             // dataTransaksiToolStripMenuItem
             // 
             this.dataTransaksiToolStripMenuItem.Name = "dataTransaksiToolStripMenuItem";
-            this.dataTransaksiToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.dataTransaksiToolStripMenuItem.Size = new System.Drawing.Size(324, 44);
             this.dataTransaksiToolStripMenuItem.Text = "Data Transaksi";
             this.dataTransaksiToolStripMenuItem.Click += new System.EventHandler(this.dataTransaksiToolStripMenuItem_Click);
             // 
             // DataPemesanan
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(685, 389);
+            this.ClientSize = new System.Drawing.Size(1370, 748);
             this.Controls.Add(this.menuStrip1);
             this.Controls.Add(this.label21);
             this.Controls.Add(this.pictureBox1);
@@ -350,6 +373,7 @@
             this.Controls.Add(this.save);
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.groupBox4);
+            this.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.Name = "DataPemesanan";
             this.Text = "Data Pemesanan";
             this.Load += new System.EventHandler(this.DataPemesanan_Load);

@@ -215,6 +215,7 @@
             this.menuToolStripMenuItem.Name = "menuToolStripMenuItem";
             this.menuToolStripMenuItem.Size = new System.Drawing.Size(53, 20);
             this.menuToolStripMenuItem.Text = "MENU";
+            this.menuToolStripMenuItem.Click += new System.EventHandler(this.menuToolStripMenuItem_Click);
             // 
             // dataPegawaiToolStripMenuItem
             // 

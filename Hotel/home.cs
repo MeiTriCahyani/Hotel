@@ -24,8 +24,8 @@ namespace Hotel
 
         private void button4_Click(object sender, EventArgs e)
         {
-            DataKamar kmr = new DataKamar();
-            kmr.Show();
+            Menu mn = new Menu();
+            mn.Show();
             this.Hide();
         }
     }

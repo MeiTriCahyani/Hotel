@@ -88,7 +88,7 @@ namespace Hotel
 
         private void next_Click(object sender, EventArgs e)
         {
-            DataMember mb = new DataMember();
+            Membre mb = new Membre();
             mb.Show();
             this.Hide();
         }
@@ -150,6 +150,13 @@ namespace Hotel
         private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
            
+        }
+
+        private void menuToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Menu mn = new Menu();
+            mn.Show();
+            this.Hide();
         }
     }
 }

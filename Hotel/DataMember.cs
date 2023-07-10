@@ -16,5 +16,24 @@ namespace Hotel
         {
             InitializeComponent();
         }
+
+        private void Membre_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void hOMEToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            home hom = new home();
+            hom.Show();
+            this.Hide();
+        }
+
+        private void menuToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Menu mn = new Menu();
+            mn.Show();
+            this.Hide();
+        }
     }
 }

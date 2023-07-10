@@ -31,13 +31,6 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Departemen));
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.hOMEToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.menuToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.dataPegawaiToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.dataPelangganToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.dataKamarToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.dataPemesananToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.dataTransaksiToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.dataToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.label21 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.departemenview = new System.Windows.Forms.DataGridView();
@@ -51,6 +44,7 @@
             this.id_pgw = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
+            this.mENUToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.departemenview)).BeginInit();
@@ -61,7 +55,7 @@
             // 
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.hOMEToolStripMenuItem,
-            this.menuToolStripMenuItem});
+            this.mENUToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
             this.menuStrip1.Size = new System.Drawing.Size(800, 24);
@@ -73,56 +67,6 @@
             this.hOMEToolStripMenuItem.Name = "hOMEToolStripMenuItem";
             this.hOMEToolStripMenuItem.Size = new System.Drawing.Size(54, 20);
             this.hOMEToolStripMenuItem.Text = "HOME";
-            // 
-            // menuToolStripMenuItem
-            // 
-            this.menuToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.dataPegawaiToolStripMenuItem,
-            this.dataPelangganToolStripMenuItem,
-            this.dataToolStripMenuItem,
-            this.dataKamarToolStripMenuItem,
-            this.dataPemesananToolStripMenuItem,
-            this.dataTransaksiToolStripMenuItem});
-            this.menuToolStripMenuItem.Name = "menuToolStripMenuItem";
-            this.menuToolStripMenuItem.Size = new System.Drawing.Size(53, 20);
-            this.menuToolStripMenuItem.Text = "MENU";
-            this.menuToolStripMenuItem.Click += new System.EventHandler(this.menuToolStripMenuItem_Click);
-            // 
-            // dataPegawaiToolStripMenuItem
-            // 
-            this.dataPegawaiToolStripMenuItem.Name = "dataPegawaiToolStripMenuItem";
-            this.dataPegawaiToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.dataPegawaiToolStripMenuItem.Text = "Data Pegawai";
-            // 
-            // dataPelangganToolStripMenuItem
-            // 
-            this.dataPelangganToolStripMenuItem.Name = "dataPelangganToolStripMenuItem";
-            this.dataPelangganToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.dataPelangganToolStripMenuItem.Text = "Data Pelanggan";
-            // 
-            // dataKamarToolStripMenuItem
-            // 
-            this.dataKamarToolStripMenuItem.Name = "dataKamarToolStripMenuItem";
-            this.dataKamarToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.dataKamarToolStripMenuItem.Text = "Data Kamar";
-            // 
-            // dataPemesananToolStripMenuItem
-            // 
-            this.dataPemesananToolStripMenuItem.Name = "dataPemesananToolStripMenuItem";
-            this.dataPemesananToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.dataPemesananToolStripMenuItem.Text = "Data Pemesanan";
-            // 
-            // dataTransaksiToolStripMenuItem
-            // 
-            this.dataTransaksiToolStripMenuItem.Name = "dataTransaksiToolStripMenuItem";
-            this.dataTransaksiToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.dataTransaksiToolStripMenuItem.Text = "Data Transaksi";
-            // 
-            // dataToolStripMenuItem
-            // 
-            this.dataToolStripMenuItem.Name = "dataToolStripMenuItem";
-            this.dataToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.dataToolStripMenuItem.Text = "Data Member";
             // 
             // label21
             // 
@@ -253,6 +197,13 @@
             this.label8.TabIndex = 0;
             this.label8.Text = "ID Pegawai";
             // 
+            // mENUToolStripMenuItem
+            // 
+            this.mENUToolStripMenuItem.Name = "mENUToolStripMenuItem";
+            this.mENUToolStripMenuItem.Size = new System.Drawing.Size(53, 20);
+            this.mENUToolStripMenuItem.Text = "MENU";
+            this.mENUToolStripMenuItem.Click += new System.EventHandler(this.mENUToolStripMenuItem_Click_1);
+            // 
             // Departemen
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -285,13 +236,6 @@
 
         private System.Windows.Forms.MenuStrip menuStrip1;
         private System.Windows.Forms.ToolStripMenuItem hOMEToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem menuToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem dataPegawaiToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem dataPelangganToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem dataKamarToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem dataPemesananToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem dataTransaksiToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem dataToolStripMenuItem;
         private System.Windows.Forms.Label label21;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.DataGridView departemenview;
@@ -305,5 +249,6 @@
         private System.Windows.Forms.TextBox id_pgw;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label8;
+        private System.Windows.Forms.ToolStripMenuItem mENUToolStripMenuItem;
     }
 }

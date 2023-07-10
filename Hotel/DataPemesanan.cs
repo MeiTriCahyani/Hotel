@@ -82,5 +82,12 @@ namespace Hotel
             hom.Show();
             this.Hide();
         }
+
+        private void menuToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Menu mn = new Menu();
+            mn.Show();
+            this.Hide();
+        }
     }
 }

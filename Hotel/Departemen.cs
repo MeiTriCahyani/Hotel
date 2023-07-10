@@ -21,9 +21,12 @@ namespace Hotel
             InitializeComponent();
         }
 
-        private void menuToolStripMenuItem_Click(object sender, EventArgs e)
+        private void mENUToolStripMenuItem_Click_1(object sender, EventArgs e)
         {
-
+            Menu mn = new Menu();
+            mn.Show();
+            this.Hide();
         }
     }
 }
+

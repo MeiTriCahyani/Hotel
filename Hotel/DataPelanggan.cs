@@ -120,13 +120,13 @@ namespace Hotel
             else
             {
                 koneksi.Open();
-                string str = "insert into dbo.Hotel (id_pelanggan, nama, no_hp,jk)" + "values(@id, @nm, @nohp, @jk)";
+                string str = "insert into dbo.Pelanggan (id_pelanggan, nama, no_hp,jk)" + "values(@id, @nm, @nohp, @jk)";
                 SqlCommand cmd = new SqlCommand(str, koneksi);
                 cmd.CommandType = CommandType.Text;
-                cmd.Parameters.Add(new SqlParameter("id", idplg));
-                cmd.Parameters.Add(new SqlParameter("nm", nama));
-                cmd.Parameters.Add(new SqlParameter("nohp", nohp));
-                cmd.Parameters.Add(new SqlParameter("jk", jk));
+                cmd.Parameters.Add(new SqlParameter("id", IdPelanggan));
+                cmd.Parameters.Add(new SqlParameter("nm", Name));
+                cmd.Parameters.Add(new SqlParameter("nohp", NoHp));
+                cmd.Parameters.Add(new SqlParameter("jk", JK));
                 cmd.ExecuteNonQuery();
 
                 koneksi.Close();
@@ -139,17 +139,17 @@ namespace Hotel
 
         private void dataGridView1_CellContentClick()
         {
-            throw new NotImplementedException();
-        }
-
-        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
-        {
             koneksi.Open();
-            string query = "select id_pelanggan, nama, no_hp,jk from dbo.Hotel" + "values(@id, @nm, @nohp, @jk)";
+            string query = "select id_pelanggan, nama, no_hp,jk from dbo.Pelanggan";
             SqlDataAdapter dataAdapter = new SqlDataAdapter(query, koneksi);
             DataSet dataSet = new DataSet();
             dataAdapter.Fill(dataSet);
             pelanggan.DataSource = dataSet.Tables[0];
+        }
+
+        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+           
         }
     }
 }

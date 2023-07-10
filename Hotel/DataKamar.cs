@@ -54,12 +54,6 @@ namespace Hotel
 
         private void dataGridView(object sender, DataGridViewCellEventArgs e)
         {
-            koneksi.Open();
-            string query = "select id_kamar, tipe_kamar, no_kamar, lantai_kamar from dbo.Hotel" + "values(@nm, @id, @tk, @lk)";
-            SqlDataAdapter dataAdapter = new SqlDataAdapter(query, koneksi);
-            DataSet dataSet = new DataSet();
-            dataAdapter.Fill(dataSet);
-            kamarview.DataSource = dataSet.Tables[0];
             
         }
 
@@ -83,13 +77,13 @@ namespace Hotel
             else
             {
                 koneksi.Open();
-                string str = "insert into dbo.Hotel (id_kamar, tipe_kamar,no_kamar, lantai_kamar )" + "values(@nm, @id, @tk, @lk)";
+                string str = "insert into dbo.Kamar (id_kamar, tipe_kamar,no_kamar, lantai_kamar )" + "values(@nm, @id, @tk, @lk)";
                 SqlCommand cmd = new SqlCommand(str, koneksi);
                 cmd.CommandType = CommandType.Text;
-                cmd.Parameters.Add(new SqlParameter("nm", idkmr));
-                cmd.Parameters.Add(new SqlParameter("id", nmkmr));
-                cmd.Parameters.Add(new SqlParameter("tk", tpkmr));
-                cmd.Parameters.Add(new SqlParameter("lk", ltkmr));
+                cmd.Parameters.Add(new SqlParameter("nm", IdKamar));
+                cmd.Parameters.Add(new SqlParameter("id", NmKamar));
+                cmd.Parameters.Add(new SqlParameter("tk", tipekamar));
+                cmd.Parameters.Add(new SqlParameter("lk", LtKamar));
                 cmd.ExecuteNonQuery();
 
                 koneksi.Close();
@@ -102,7 +96,12 @@ namespace Hotel
 
         private void dataGridView()
         {
-            throw new NotImplementedException();
+            koneksi.Open();
+            string query = "select id_kamar, tipe_kamar, no_kamar, lantai_kamar from dbo.Kamar";
+            SqlDataAdapter dataAdapter = new SqlDataAdapter(query, koneksi);
+            DataSet dataSet = new DataSet();
+            dataAdapter.Fill(dataSet);
+            kamarview.DataSource = dataSet.Tables[0];
         }
 
         private void exit_Click(object sender, EventArgs e)

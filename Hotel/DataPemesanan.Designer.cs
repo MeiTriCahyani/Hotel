@@ -80,9 +80,9 @@
             this.groupBox4.Controls.Add(this.label17);
             this.groupBox4.Font = new System.Drawing.Font("Mongolian Baiti", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox4.Location = new System.Drawing.Point(70, 138);
-            this.groupBox4.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.groupBox4.Margin = new System.Windows.Forms.Padding(6);
             this.groupBox4.Name = "groupBox4";
-            this.groupBox4.Padding = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.groupBox4.Padding = new System.Windows.Forms.Padding(6);
             this.groupBox4.Size = new System.Drawing.Size(686, 533);
             this.groupBox4.TabIndex = 10;
             this.groupBox4.TabStop = false;
@@ -91,7 +91,7 @@
             // chkout
             // 
             this.chkout.Location = new System.Drawing.Point(294, 454);
-            this.chkout.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.chkout.Margin = new System.Windows.Forms.Padding(6);
             this.chkout.Name = "chkout";
             this.chkout.Size = new System.Drawing.Size(288, 44);
             this.chkout.TabIndex = 12;
@@ -100,7 +100,7 @@
             // chkin
             // 
             this.chkin.Location = new System.Drawing.Point(294, 375);
-            this.chkin.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.chkin.Margin = new System.Windows.Forms.Padding(6);
             this.chkin.Name = "chkin";
             this.chkin.Size = new System.Drawing.Size(288, 44);
             this.chkin.TabIndex = 11;
@@ -126,7 +126,7 @@
             "Connecting Room",
             "Presindential Suite"});
             this.tpkmr.Location = new System.Drawing.Point(294, 300);
-            this.tpkmr.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.tpkmr.Margin = new System.Windows.Forms.Padding(6);
             this.tpkmr.Name = "tpkmr";
             this.tpkmr.Size = new System.Drawing.Size(288, 42);
             this.tpkmr.TabIndex = 8;
@@ -134,7 +134,7 @@
             // idkmr
             // 
             this.idkmr.Location = new System.Drawing.Point(294, 221);
-            this.idkmr.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.idkmr.Margin = new System.Windows.Forms.Padding(6);
             this.idkmr.Name = "idkmr";
             this.idkmr.Size = new System.Drawing.Size(288, 44);
             this.idkmr.TabIndex = 6;
@@ -142,7 +142,7 @@
             // idpgln
             // 
             this.idpgln.Location = new System.Drawing.Point(294, 146);
-            this.idpgln.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.idpgln.Margin = new System.Windows.Forms.Padding(6);
             this.idpgln.Name = "idpgln";
             this.idpgln.Size = new System.Drawing.Size(288, 44);
             this.idpgln.TabIndex = 5;
@@ -150,10 +150,11 @@
             // idpms
             // 
             this.idpms.Location = new System.Drawing.Point(294, 56);
-            this.idpms.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.idpms.Margin = new System.Windows.Forms.Padding(6);
             this.idpms.Name = "idpms";
             this.idpms.Size = new System.Drawing.Size(288, 44);
             this.idpms.TabIndex = 4;
+            this.idpms.TextChanged += new System.EventHandler(this.idpms_TextChanged);
             // 
             // label13
             // 
@@ -209,7 +210,7 @@
             // 
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.Location = new System.Drawing.Point(768, 158);
-            this.dataGridView1.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.dataGridView1.Margin = new System.Windows.Forms.Padding(6);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowHeadersWidth = 82;
             this.dataGridView1.Size = new System.Drawing.Size(586, 317);
@@ -218,7 +219,7 @@
             // next
             // 
             this.next.Location = new System.Drawing.Point(1072, 613);
-            this.next.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.next.Margin = new System.Windows.Forms.Padding(6);
             this.next.Name = "next";
             this.next.Size = new System.Drawing.Size(150, 44);
             this.next.TabIndex = 31;
@@ -229,7 +230,7 @@
             // exit
             // 
             this.exit.Location = new System.Drawing.Point(838, 613);
-            this.exit.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.exit.Margin = new System.Windows.Forms.Padding(6);
             this.exit.Name = "exit";
             this.exit.Size = new System.Drawing.Size(150, 44);
             this.exit.TabIndex = 30;
@@ -240,27 +241,29 @@
             // add
             // 
             this.add.Location = new System.Drawing.Point(768, 527);
-            this.add.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.add.Margin = new System.Windows.Forms.Padding(6);
             this.add.Name = "add";
             this.add.Size = new System.Drawing.Size(150, 44);
             this.add.TabIndex = 29;
             this.add.Text = "ADD";
             this.add.UseVisualStyleBackColor = true;
+            this.add.Click += new System.EventHandler(this.add_Click);
             // 
             // clear
             // 
             this.clear.Location = new System.Drawing.Point(964, 527);
-            this.clear.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.clear.Margin = new System.Windows.Forms.Padding(6);
             this.clear.Name = "clear";
             this.clear.Size = new System.Drawing.Size(150, 44);
             this.clear.TabIndex = 28;
             this.clear.Text = "CLEAR";
             this.clear.UseVisualStyleBackColor = true;
+            this.clear.Click += new System.EventHandler(this.clear_Click);
             // 
             // save
             // 
             this.save.Location = new System.Drawing.Point(1156, 527);
-            this.save.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.save.Margin = new System.Windows.Forms.Padding(6);
             this.save.Name = "save";
             this.save.Size = new System.Drawing.Size(150, 44);
             this.save.TabIndex = 27;
@@ -282,7 +285,7 @@
             // 
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
             this.pictureBox1.Location = new System.Drawing.Point(962, 35);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(6);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(150, 104);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -298,15 +301,14 @@
             this.menuToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Padding = new System.Windows.Forms.Padding(6, 2, 0, 2);
-            this.menuStrip1.Size = new System.Drawing.Size(1370, 40);
+            this.menuStrip1.Size = new System.Drawing.Size(1370, 48);
             this.menuStrip1.TabIndex = 34;
             this.menuStrip1.Text = "menuStrip1";
             // 
             // hOMEToolStripMenuItem
             // 
             this.hOMEToolStripMenuItem.Name = "hOMEToolStripMenuItem";
-            this.hOMEToolStripMenuItem.Size = new System.Drawing.Size(103, 36);
+            this.hOMEToolStripMenuItem.Size = new System.Drawing.Size(103, 40);
             this.hOMEToolStripMenuItem.Text = "HOME";
             this.hOMEToolStripMenuItem.Click += new System.EventHandler(this.hOMEToolStripMenuItem_Click);
             // 
@@ -319,7 +321,7 @@
             this.dataPemesananToolStripMenuItem,
             this.dataTransaksiToolStripMenuItem});
             this.menuToolStripMenuItem.Name = "menuToolStripMenuItem";
-            this.menuToolStripMenuItem.Size = new System.Drawing.Size(102, 36);
+            this.menuToolStripMenuItem.Size = new System.Drawing.Size(102, 40);
             this.menuToolStripMenuItem.Text = "MENU";
             this.menuToolStripMenuItem.Click += new System.EventHandler(this.menuToolStripMenuItem_Click);
             // 
@@ -373,7 +375,7 @@
             this.Controls.Add(this.save);
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.groupBox4);
-            this.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.Margin = new System.Windows.Forms.Padding(6);
             this.Name = "DataPemesanan";
             this.Text = "Data Pemesanan";
             this.Load += new System.EventHandler(this.DataPemesanan_Load);

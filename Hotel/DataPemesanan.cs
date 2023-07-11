@@ -89,5 +89,34 @@ namespace Hotel
             mn.Show();
             this.Hide();
         }
+
+        private void add_Click(object sender, EventArgs e)
+        {
+            idpms.Enabled = true;
+            idpgln.Enabled = true;
+            idkmr.Enabled = true;
+            save.Enabled = true;
+            clear.Enabled = true;
+        }
+
+        private void idpms_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void refreshform()
+        {
+            idpms.Text = "";
+            idpms.Enabled = true;
+            idpgln.Text = "";
+            idpgln.Enabled=false;
+            idkmr.Text = "";
+            idkmr.Enabled=false;
+        }
+
+        private void clear_Click(object sender, EventArgs e)
+        {
+            refreshform();
+        }
     }
 }
